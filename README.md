@@ -1,2 +1,0 @@
-# Jordi-site
-Jaiz website
