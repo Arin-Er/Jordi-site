@@ -4,6 +4,19 @@ html {
 
 body {
     background-image: url(../images/buidingphotography.jpg);
+    /*    background-color: #000;*/
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1 {
+    display: block;
+    color: #fff;
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 30%;
+    padding-bottom: 3rem;
 }
