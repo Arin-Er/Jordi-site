@@ -3346,7 +3346,7 @@ fieldset:disabled a.btn {
 
 .btn-lg,
 .btn-group-lg > .btn {
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 2rem;
     font-size: 1.25rem;
     line-height: 1.5;
     border-radius: 0.3rem;
@@ -3612,7 +3612,7 @@ input[type="button"].btn-block {
     height: 0;
     margin: 0.5rem 0;
     overflow: hidden;
-    border-top: 1px solid #e9ecef;
+    border-top: 1px solid #fff;
 }
 
 .dropdown-item {
@@ -3642,14 +3642,14 @@ input[type="button"].btn-block {
 .dropdown-item:focus {
     color: #16181b;
     text-decoration: none;
-    background-color: #f8f9fa;
+    background-color: #7a7a7b;
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #007bff;
+    background-color: #7a7a7b;
 }
 
 .dropdown-item.disabled,
@@ -3738,8 +3738,7 @@ input[type="button"].btn-block {
 }
 
 .dropdown-toggle-split {
-    padding-right: 0.5625rem;
-    padding-left: 0.5625rem;
+    
 }
 
 .dropdown-toggle-split::after,
@@ -5998,7 +5997,7 @@ a.badge-dark:focus {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1;
-    color: #000;
+    color: #fff;
     text-shadow: 0 1px 0 #fff;
     opacity: .5;
 }

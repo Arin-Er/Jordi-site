@@ -1,22 +1,82 @@
+*{box-sizing: border-box;}
 html {
     height: 100%;
 }
 
-body {
-    background-image: url(../images/buidingphotography.jpg);
-    /*    background-color: #000;*/
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+.fullbackground-index-1 {
+    background: url(../img/buidingphotography.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.fullbackground-index-2 {
+    background: url(../img/jordi-jaiz.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
+.ftr {
+    background-color: rgb(50, 50, 50, 0.6);
+    color: #fff;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.whitedropdown {
+    color: #fff;
+}
+
+.mg-down {
+    margin-bottom: 250px;
+}
+.about-style{
+    color: #fff;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
 h1 {
-    display: block;
     color: #fff;
     width: 100%;
     font-size: 100px;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 20%;
     padding-bottom: 3rem;
+}
+/*vid*/
+#background {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+}
+/*vid*/
+/*@Media's*/
+@media all and (max-width: 500px) {
+    h1 {
+        padding-top: 30%;
+        font-size: 50px;
+    }.about-style{
+    font-size: 17px;
+}
+
+}
+@media all and (max-width: 260px) {
+    h1 {
+        padding-top: 60%;
+        font-size: 25px;
+    }
 }
