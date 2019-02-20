@@ -1,4 +1,7 @@
-*{box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
 }
@@ -10,8 +13,17 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .fullbackground-index-2 {
     background: url(../img/jordi-jaiz.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fullbackground-index-3 {
+    background: url(../img/emiel-jaiz-2.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,7 +46,8 @@ html {
 .mg-down {
     margin-bottom: 250px;
 }
-.about-style{
+
+.about-style {
     color: #fff;
     margin-bottom: 60px;
     font-size: 20px;
@@ -48,32 +61,76 @@ h1 {
     padding-top: 20%;
     padding-bottom: 3rem;
 }
-/*vid*/
-#background {
-position: fixed;
-top: 50%;
-left: 50%;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -100;
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
-background: url(polina.jpg) no-repeat;
-background-size: cover;
+
+.lessmargin {
+    padding-top: 5%;
 }
+
+.zero {
+    margin: 0;
+}
+
 /*vid*/
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*vid*/
+/*Portfolio*/
+.fit-image {
+    height: 100%;
+    width: 100%;
+}
+
+#my-grid {
+    margin-top: 50px;
+}
+
+.grid-padding {
+    padding: 0 8px;
+}
+
+.grid-padding img {
+    margin-bottom: 15px;
+    transition: 0.8s ease;
+}
+
+.grid-padding img:hover {
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.8s ease;
+}
+
+.col-sm-4 {
+    padding-right: 30px;
+}
+
+/*/Portfolio*/
 /*@Media's*/
+
 @media all and (max-width: 500px) {
     h1 {
         padding-top: 30%;
         font-size: 50px;
-    }.about-style{
-    font-size: 17px;
-}
+    }
+
+    .about-style {
+        font-size: 17px;
+    }
 
 }
+
 @media all and (max-width: 260px) {
     h1 {
         padding-top: 60%;
