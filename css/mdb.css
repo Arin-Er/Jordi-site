@@ -709,7 +709,9 @@
 }
 
 .trans {
-    background-color: rgb(50, 50, 50, 0.6) !important;
+    background-color: #323232 !important;
+    opacity: 0.6;
+    visibility: visible;
 }
 
 .trans-solid {
