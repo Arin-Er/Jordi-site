@@ -709,9 +709,7 @@
 }
 
 .trans {
-    background-color: #323232 !important;
-    opacity: 0.6;
-    visibility: visible;
+    background-color: rgba(50, 50, 50, 0.6) !important;
 }
 
 .trans-solid {
@@ -1737,7 +1735,7 @@ ul.stepper li.warning a .circle {
 a {
     cursor: pointer;
     text-decoration: none;
-    color: #007bff;
+    color: #fff;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -1829,7 +1827,16 @@ a:not([href]):not([tabindex]):hover {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -webkit-border-radius: 0.125rem;
     border-radius: 0.125rem;
-    background-color: rgb(50, 50, 50, 0.6);
+    background-color: rgb(50, 50, 50);
+    /*    background-color: #fff;*/
+}
+.jumbotron:hover{
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-border-radius: 0.125rem;
+    border-radius: 0.125rem;
+    transition: 0.2s ease-in;
+    background-color: rgb(79, 79, 79);
     /*    background-color: #fff;*/
 }
 
@@ -8857,7 +8864,7 @@ a.waves-light {
 }
 
 .btn-grey {
-    background-color: #616161 !important;
+    background-color: rgba(50, 50, 50, 0.60)!important;
     color: #fff !important;
 }
 
@@ -9683,7 +9690,7 @@ a.waves-light {
 }
 
 .navbar.navbar-dark .navbar-nav .nav-item .nav-link.disbled:hover {
-    color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
 }
 
 .navbar.navbar-dark .navbar-toggler-icon {
@@ -9693,7 +9700,9 @@ a.waves-light {
 
 .navbar.navbar-dark .breadcrumb .nav-item .nav-link,
 .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-    color: #fff;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    visibility: visible;
     -webkit-transition: 0.35s;
     -o-transition: 0.35s;
     transition: 0.35s;
@@ -11644,7 +11653,7 @@ footer.page-footer .container-fluid {
 
 footer.page-footer .footer-copyright {
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.2);
+    /*background-color: rgba(0, 0, 0, 0.2);*/
     color: rgba(255, 255, 255, 0.6);
 }
 
